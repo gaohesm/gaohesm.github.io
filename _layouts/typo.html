@@ -1,0 +1,26 @@
+  {% include head.html %}
+<body>
+<div id="wrapper" class="typo typo-selection">
+<h1>{{ page.title }}  </h1><br/>
+<h2 id="tagline" class="serif">{{ page.tagline }}</h2>
+ <img src="{{ site.url }}/images/{{ page.categories.[0] }}/{{ page.img }}">
+ 
+ 
+    {{ content }}
+	
+	<h5>参考文献</h5>
+	
+	<ol id="table">
+	    <ul>
+	      <li>作者： {{page.author}}  ，选自：{{page.source}} </li>
+		  <li>《认知写作学文选》 </li>
+	    </ul>
+	</ol>
+	
+
+
+</div>
+<!-- #wrapper -->
+
+</body>
+</html>

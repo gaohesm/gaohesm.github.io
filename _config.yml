@@ -1,0 +1,10 @@
+# Site settings
+title: 开智学堂APP
+tag_text: 开智学堂APP
+description: 开智学堂APP
+permalink: /:categories/:title.html
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
